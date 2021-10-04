@@ -1,0 +1,148 @@
+body {
+  background-color: #e5e5e5;
+}
+
+.jumbotron-home {
+  background-color: black;
+}
+
+.btn {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  width: 100px;
+  color: white;
+  background-color: #fdb414;
+}
+
+.navbar .btn-login {
+  background: transparent;
+  border-color: white;
+}
+
+.navbar .btn-login:hover {
+  background-color: #fdb414;
+  border-color: #fdb414;
+}
+
+.navbar .btn-register {
+  background-color: #fdb414;
+  border-color: #fdb414;
+}
+
+.navbar .btn-register:hover {
+  background: transparent;
+  border-color: white;
+}
+
+.jumbotron-headline {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  padding-top: 50px;
+}
+
+.jumbotron-headline h1 {
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.jumbotron-headline h2 {
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.jumbotron-searchbar {
+  padding-top: 50px;
+}
+
+.jumbotron-searchbar p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.jumbotron-searchbar .btn-search {
+  border-color: #fdb414;
+}
+
+.jumbotron-searchbar .btn-search:hover {
+  border-color: #eba50d;
+  background-color: #eba50d;
+}
+
+.feature {
+  padding-top: 50px;
+}
+
+.feature .card {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.feature .card-body {
+  padding: 25px 25px 20px 25px;
+}
+
+.feature img {
+  max-width: 70px;
+}
+
+.feature h5 {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.feature p {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  color: #878787;
+  margin-top: auto;
+}
+
+.paket {
+  padding-top: 50px;
+}
+
+.paket h2 {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  text-align: center;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+footer {
+  background-color: #fdb414;
+  margin: 20px 0px 0px 0px;
+  height: 50px;
+}
+
+footer p {
+  font-family: "Nunito", sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 13px;
+}
+
+/* Style Login.html */
+.login-form {
+  max-width: 400px;
+}
+
+.login-form h1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.login-form .form-label {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */
