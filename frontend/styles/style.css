@@ -3,7 +3,11 @@ body {
 }
 
 .jumbotron-home {
-  background-color: black;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("jumbotron.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("jumbotron.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .btn {
@@ -144,5 +148,42 @@ footer p {
 .login-form .form-label {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
+}
+
+/* Style produk.html */
+.halaman-produk {
+  font-family: "Nunito", sans-serif;
+  margin-top: 10px;
+}
+
+.halaman-produk h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.halaman-produk h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #878787;
+}
+
+.halaman-produk h3 {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.halaman-produk h4 {
+  color: #878787;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.halaman-produk p {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.halaman-produk .container {
+  margin-bottom: 50px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -3,12 +3,12 @@ body {
 }
 
 .jumbotron-home {
-  background-color: black;
-  // background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  //   url("jumbotron.png");
-  // background-size: cover;
-  // background-position: center;
-  // background-attachment: fixed;
+  // background-color: black;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("jumbotron.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .btn {
@@ -134,3 +134,37 @@ footer {
     font-weight: 600;
   }
 }
+
+/* Style produk.html */
+.halaman-produk {
+  font-family: "Nunito", sans-serif;
+  margin-top: 10px;
+  h1 {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #878787;
+  }
+  h3 {
+    font-weight: 800;
+    font-size: 24px;
+  }
+  h4 {
+    color: #878787;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  p {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .container {
+    margin-bottom: 50px;
+  }
+}
+// .carousel {
+//   max-width: 700px;
+// }
