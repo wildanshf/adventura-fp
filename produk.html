@@ -312,8 +312,34 @@
           <div class="col">
             <h5>IDR. 750,000.00<span>/ Person</span></h5>
           </div>
-          <div class="col ms-auto">
-            <h4>Transportation</h4>
+          <div class="col ms-auto produk-quantity">
+            <div class="input-group">
+              <div class="input-group-btn">
+                <button
+                  id="down"
+                  class="btn btn-default btn-quantity"
+                  onclick=" down('0')"
+                >
+                  <img src="frontend/images/icon-minus.svg" alt="" />
+                </button>
+              </div>
+              <input
+                type="text"
+                id="myNumber"
+                class="form-control input-number value-quantity"
+                value="1"
+                readonly
+              />
+              <div class="input-group-btn">
+                <button
+                  id="up"
+                  class="btn btn-default btn-quantity"
+                  onclick="up('10')"
+                >
+                  <img src="frontend/images/icon-plus.svg" alt="" />
+                </button>
+              </div>
+            </div>
           </div>
         </div>
         <hr />
@@ -326,9 +352,16 @@
           </div>
         </div>
         <hr />
-        <a href="checkout.html">
-          <button>Book Now</button>
-        </a>
+        <div class="row row-cols-2 row-cols-md-5 g-4">
+          <div class="col"></div>
+          <div class="col ms-auto">
+            <a href="checkout.html">
+              <button type="submit" class="btn btn-primary btn-book">
+                Book Now
+              </button>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
     <main></main>
@@ -339,5 +372,21 @@
     </footer>
     <script src="frontend/libraries/jquery/jquery-3.6.0.min.js"></script>
     <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script>
+      function up(max) {
+        document.getElementById("myNumber").value =
+          parseInt(document.getElementById("myNumber").value) + 1;
+        if (document.getElementById("myNumber").value >= parseInt(max)) {
+          document.getElementById("myNumber").value = max;
+        }
+      }
+      function down(min) {
+        document.getElementById("myNumber").value =
+          parseInt(document.getElementById("myNumber").value) - 1;
+        if (document.getElementById("myNumber").value <= parseInt(min)) {
+          document.getElementById("myNumber").value = min;
+        }
+      }
+    </script>
   </body>
 </html>

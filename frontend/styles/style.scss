@@ -17,6 +17,11 @@ body {
   width: 100px;
   color: white;
   background-color: #fdb414;
+  border: none;
+  &:hover {
+    border-color: #eba50d;
+    background-color: #eba50d;
+  }
 }
 
 .navbar {
@@ -161,6 +166,24 @@ footer {
 }
 
 /* Style produk.html */
+.produk-quantity {
+  .value-quantity {
+    max-width: 50px;
+    text-align: center;
+    background: none;
+    border: none;
+  }
+  .btn-quantity {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    align-items: center;
+    img {
+      align-items: center;
+    }
+  }
+}
+
 .halaman-produk {
   font-family: "Nunito", sans-serif;
   margin-top: 10px;
@@ -188,6 +211,10 @@ footer {
   }
   .container {
     margin-bottom: 50px;
+  }
+  .btn-book {
+    width: 200px;
+    height: 50px;
   }
 }
 // .carousel {

@@ -16,6 +16,12 @@ body {
   width: 100px;
   color: white;
   background-color: #fdb414;
+  border: none;
+}
+
+.btn:hover {
+  border-color: #eba50d;
+  background-color: #eba50d;
 }
 
 .navbar .btn-login {
@@ -181,6 +187,28 @@ footer p {
 }
 
 /* Style produk.html */
+.produk-quantity .value-quantity {
+  max-width: 50px;
+  text-align: center;
+  background: none;
+  border: none;
+}
+
+.produk-quantity .btn-quantity {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.produk-quantity .btn-quantity img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .halaman-produk {
   font-family: "Nunito", sans-serif;
   margin-top: 10px;
@@ -215,5 +243,10 @@ footer p {
 
 .halaman-produk .container {
   margin-bottom: 50px;
+}
+
+.halaman-produk .btn-book {
+  width: 200px;
+  height: 50px;
 }
 /*# sourceMappingURL=style.css.map */
