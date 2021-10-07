@@ -97,6 +97,10 @@ body {
 
 .paket {
   padding-top: 50px;
+  margin-bottom: 50px;
+  a {
+    text-decoration: none;
+  }
   h2 {
     font-family: "Poppins", sans-serif;
     color: black;
@@ -104,23 +108,44 @@ body {
     font-weight: 400;
     font-size: 48px;
   }
+  .card {
+    h5 {
+      font-family: "Nunito", sans-serif;
+      color: black;
+      font-size: 24px;
+      text-align: justify;
+      font-weight: bold;
+    }
+    h6 {
+      font-family: "Nunito", sans-serif;
+      color: #eba50d;
+      font-size: 18px;
+      margin-top: 15px;
+    }
+    &:hover {
+      transform: scale(1.05);
+      background-color: #fdb31421;
+    }
+    img {
+      padding: 10px;
+      border-radius: 15px;
+    }
+  }
 }
 
 footer {
   background-color: #fdb414;
-  margin: 20px 0px 0px 0px;
-  height: 50px;
+  bottom: 0;
+  min-height: 40px;
   p {
     font-family: "Nunito", sans-serif;
     color: white;
     font-size: 18px;
     font-weight: 600;
     text-align: center;
-    padding-top: 13px;
+    margin-bottom: 0px;
   }
 }
-
-/* Style Login.html */
 
 .login-form {
   max-width: 400px;
